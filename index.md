@@ -1,24 +1,7 @@
----
-layout: default
----
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
 
 # Introduction
 
 I am a CS student at SNHU who develops programs with the intent collaboratively work to create programs that can provide intuitive solutions to commom issues faced by the end user. This portfolio contains a number of example programs and explanations of my experience and abilities within the development field.
-
-# Professional Self-Assessment
-
-For over four years now, I have been studying and polishing my abilities within the field of computer science. While I have my own strengths and weaknesses in this area, I feel that you will find that throughout my time and efforts I have developed skills that are useful and relevant to the industry. Throughout the past few years, I have been studying computer science at university, which has given me the opportunity to hone and polish a number of relevant skills. While I have struggled with certain issues in the past, the efforts dedicated to my studies have increased my necessary capabilities dramatically.
-
-One such example can be seen within the projects displayed within this portfolio. Looking at the original code for my mobile event tracking app, you can see it was initially developed with a very individual mindset; code structure and commenting had little to no detail in certain areas. Throughout development, documentation was barely present. In my mind, since I was only developing code by myself that would only be adjusted by myself, it seemed unnecessary to pay extra efforts to make it easy to follow and adjust for others. However, throughout my continued efforts, I began to shift my mindset to be more team-oriented and began to understand the need for code to be written with a group environment in mind. I began making efforts to adjust readability and communication within my programs, and began putting in extra work to document better for others. 
-
-As a side effect of this development, I feel that a collaborative mindset has become one of my greatest strengths. However, I do feel that I have developed many other useful competencies as well. My efforts put towards increased communcation could prove beneficial in situations where an individual group may need to communicate with shareholders or clients. As for more code and development related abilites, I have consistently developed programs that require the use of data that needs to be efficently handled and adjusted by a number of different elements. This typically requires me to use a number of SQL and data handling tools such as MongoDB, pandas, Numpy, Express, and more, which I believe has granted me a healthy level of competence with areas of expertise such as data structure, algorithms, databases, and data handling. Furthermore, my programs typically require a number of both front and backend elements, meaning I have gained a strong level of experience not only with writing code, but also with adopting strong, user-oriented UI and UX design elements, while also adopting certain full stack programming practices through the use of practices such as the MEAN stack, which I feel has given me crucial experience towards developing clean software engineering practices. Of course, user focused programs always need to consider the safety and integrity of the user's and their data, which has pushed me to grow my level of competence with healthy security practices. A number of my projects regularly include the use of features such as proper certifications, encryption, and secure practices to combat common vulnerabilities such as buffer overflow and injection attacks.
-
-While I still have room to grow, I have spent the past years working meticulously to increase my abilites, which I feel has caused me to gain a significant level of competence that can be useful on any team, while still retaining a desire to hone in my efforts and grow my abilites even further.
 
 
 ## Informal Code Review
@@ -53,9 +36,9 @@ Enhancing an artifact with the level of freedom I had in this instance seemed a 
 
 The second enhancement focused on improving the use of data and how it is structured and handled within a program. To demonstrate enhancements in this area, I updated my project that was originally the final for a client/server development course, improving the sort methods and data handling logic in various areas throughout the program.
 
-[CS 499 Artifact 2 Original - Greenwell.zip](https://github.com/user-attachments/files/19579621/CS.499.Artifact.2.Original.-.Greenwell.zip)
+[Origianl Project Files for Artifact 2](https://github.com/user-attachments/files/19579621/CS.499.Artifact.2.Original.-.Greenwell.zip)
 
-[CS 499 Artifact 2 Enhanced - Greenwell.zip](https://github.com/user-attachments/files/19579615/CS.499.Artifact.2.Enhanced.-.Greenwell.zip)
+[Enhanced Project Files for Artifact 2](https://github.com/user-attachments/files/19579615/CS.499.Artifact.2.Enhanced.-.Greenwell.zip)
 
 ### Enhancement Two Narrative
 
@@ -70,110 +53,37 @@ Looking back, I felt this enhancement would meet the first, third, and fourth ou
 This project made use of data that is being passed through several places: from a file to a MongoDB database, then to a dataframe, and from there to a datatable. I found that one thing that gave me the most difficulty when finishing this project was figuring where I should manage the data in a given context: sometimes it was better to adjust and manage it directly from the database, other times it was better to adjust the dataframe, and so forth. I found that there were times I would make the wrong decision in these cases and would try to handle the data in one area when it would be better handled in another. However, I feel that this eventually led me to have a better understanding of how to manage data that is used in different areas. Additionally, the use of so many tools and methods within one simple program really helped me learn how to use these tools in more effective and ideal manners, which I’m sure will prove useful in future ventures. 
 
 
-## Header 2
+# Enhancement Three - Databases
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+For the third enhancement the focus was on improving a database and how it is handled within a program. This enhancement also made use of the same event tracking application seen in enhancement one, and improves a number of imrpovements to the database features itself, as well as how it is used and queried within the program.
 
-### Header 3
+[Original Project Files for Artifact Three](https://drive.google.com/file/d/11lUc3otRJp-CgZNWWf0cklkguzhpr94h/view?usp=drive_link).
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+[Enhanced Project Files for Artifact Three](https://drive.google.com/file/d/1lX2gixgve-DAWbZLAauxj6dIuRxgCyke/view?usp=drive_link).
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### Enhancement Three Narrative
 
-#### Header 4
+To demonstrate an improvement in the field of databases, I chose to upgrade my mobile event tracking application – the same one used in the first enhancement. This artifact was originally the final project for my CS 360 course and works to allow users to track any events they wish by adding, updating, and removing events within the application as they need, while being able to view and sort through various details on each of the events they have added.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+This project relies heavily on two databases which were originally created and adjusted entirely by myself, which is why I felt it was a good choice for the enhancement. The original assignment had a relatively tight deadline, which meant that certain parts of the development regarding the database had to be rushed, especially as other elements within the app required focus. Therefore, I already knew there was room for improvement within the databases, and this enhancement gave me a golden opportunity to move along with cleaning them up.
 
-##### Header 5
+As I already mentioned, there are two databases within the program: a user database and an event database. Each of these databases had their own set of weaknesses that warranted improvement. For one, neither database made use of unique IDs for any of their elements, with their primary keys instead being the names of the given event or user. This can cause issues if there are any duplicate names used and can also prevent us from accurately tracking which users and events were added first. There was also another issue relating to how the databases were kept, and that would be the fact that neither of the two databases were linked, meaning that every event could be accessed by every user, as opposed to having personalized events for each account. These two issues were able to be solved somewhat in tandem with each other: By adding unique IDs to each event and user, there was more individuality within each row of the database. This allowed me to also add a link within the event database to a different user, which meant that events could only be accessed and adjusted by the user who created them.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+Furthermore, the introduction of autoincrementing IDs meant that we could track which events had been added first for a given user. With the added use of IDs, we could now add a method to sort the events by the most recently added along with sorting by date and alphabet. While this is a small change, it is still one that will prove to be very useful to the user. One other slight change we made to the database was improving the login queries to prevent SQL Injection attacks. By adding a simple regular expression, we can easily detect malicious inputs that could be used to access unauthorized data, thus making the program safer.
 
-###### Header 6
+Overall, I would say that these improvements display several positive qualities in development. For one, the improvement of database structure and query logic would suggest a level of care and effort dedicated to keeping code clean and structured, which can firmly increase the strength of a given project. Additionally, the use of database elements to improve ease of use for the user shows a drive to create a user focused program which is accessible and easy to use. Finally, the improved database queries to prevent injection attacks are demonstrative of a secure development mindset, which should be a priority for any developer on any program.
+	
+ I initially predicted that this enhancement could meet several outcomes, specifically naming the second, third, fourth, and fifth ones. Reflecting on my efforts made within this enhancement, I feel that these outcomes were appropriately met; adjusting the data within the program allows it to be communicated more clearly to the user as per the second outcome, the adoption of methods that can allow the data to be sorted and handled more effectively meets the third outcome, the use of SQLite and DBHelper shows use of well-founded development tools which gives us the fourth outcome, and the implementation of methods to prevent injection knocks out the fifth outcome.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+While this enhancement has given the program extra strengths, these improvements did not come without certain issues that had to be overlooked. I did find in that some early attempts at implementing my desired changes, certain queries were not passing or creating data in the way that I had intended: wrong variables would be passed, information wouldn’t be retrieved properly given certain queries, etc.  As I was dealing with fixing these issues, I started to make use of terminal logs and outputs to track how certain queries were passed and how the data was affected, which helped significantly at finding how to improve issues. Working on this enhancement really helped me learn the importance of logging data and its usages, and I feel that the work put into this artifact has improved my ability to know how to approach database reliant programs through the proper use of debug tools and logs.
 
 
-### Definition lists can be used with HTML syntax.
+# Professional Self-Assessment
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+For over four years now, I have been studying and polishing my abilities within the field of computer science. While I have my own strengths and weaknesses in this area, I feel that you will find that throughout my time and efforts I have developed skills that are useful and relevant to the industry. Throughout the past few years, I have been studying computer science at university, which has given me the opportunity to hone and polish a number of relevant skills. While I have struggled with certain issues in the past, the efforts dedicated to my studies have increased my necessary capabilities dramatically.
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+One such example can be seen within the projects displayed within this portfolio. Looking at the original code for my mobile event tracking app, you can see it was initially developed with a very individual mindset; code structure and commenting had little to no detail in certain areas. Throughout development, documentation was barely present. In my mind, since I was only developing code by myself that would only be adjusted by myself, it seemed unnecessary to pay extra efforts to make it easy to follow and adjust for others. However, throughout my continued efforts, I began to shift my mindset to be more team-oriented and began to understand the need for code to be written with a group environment in mind. I began making efforts to adjust readability and communication within my programs, and began putting in extra work to document better for others. 
 
-```
-The final element.
-```
+As a side effect of this development, I feel that a collaborative mindset has become one of my greatest strengths. However, I do feel that I have developed many other useful competencies as well. My efforts put towards increased communcation could prove beneficial in situations where an individual group may need to communicate with shareholders or clients. As for more code and development related abilites, I have consistently developed programs that require the use of data that needs to be efficently handled and adjusted by a number of different elements. This typically requires me to use a number of SQL and data handling tools such as MongoDB, pandas, Numpy, Express, and more, which I believe has granted me a healthy level of competence with areas of expertise such as data structure, algorithms, databases, and data handling. Furthermore, my programs typically require a number of both front and backend elements, meaning I have gained a strong level of experience not only with writing code, but also with adopting strong, user-oriented UI and UX design elements, while also adopting certain full stack programming practices through the use of practices such as the MEAN stack, which I feel has given me crucial experience towards developing clean software engineering practices. Of course, user focused programs always need to consider the safety and integrity of the user's and their data, which has pushed me to grow my level of competence with healthy security practices. A number of my projects regularly include the use of features such as proper certifications, encryption, and secure practices to combat common vulnerabilities such as buffer overflow and injection attacks.
+
+While I still have room to grow, I have spent the past years working meticulously to increase my abilites, which I feel has caused me to gain a significant level of competence that can be useful on any team, while still retaining a desire to hone in my efforts and grow my abilites even further.
