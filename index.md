@@ -1,6 +1,3 @@
-
-# Introduction
-
 I am a CS student at SNHU who develops programs with the intent collaboratively work to create programs that can provide intuitive solutions to commom issues faced by the end user. This portfolio contains a number of example programs and explanations of my experience and abilities within the development field.
 
 
