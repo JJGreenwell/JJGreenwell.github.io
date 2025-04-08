@@ -35,7 +35,7 @@ The second enhancement focused on improving the use of data and how it is struct
 
 [Origianl Project Files for Artifact 2](https://github.com/user-attachments/files/19579621/CS.499.Artifact.2.Original.-.Greenwell.zip)
 
-[Enhanced Project Files for Artifact 2](https://github.com/user-attachments/files/19579615/CS.499.Artifact.2.Enhanced.-.Greenwell.zip)
+[Enhanced Project Files for Artifact 2](https://github.com/user-attachments/files/19657927/CS.499.Enhancement.2.Updated.-.Greenwell.zip)
 
 ### Enhancement Two Narrative
 
